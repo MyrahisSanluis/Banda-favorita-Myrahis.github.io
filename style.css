@@ -1,0 +1,78 @@
+/*comentarios*/
+
+/*selector de tipo HTML*/
+*{
+    font-family: 'Asap', sans-serif;
+}
+
+body{
+    background-color: rgb(74, 173, 161);
+    text-align: center;
+}
+
+h1{
+    background-color: rgb(255, 225, 32);
+    width: 50%;
+    padding: 5px;
+    border: 2px solid black;
+    color: rgb(9, 110, 112);
+    margin: 20px;
+}
+
+.titulo {
+    display: flex ;
+    align-items: center;
+    justify-content: center; /* Opcional, para centrar verticalmente en toda la altura de la ventana */
+}
+
+p{
+    text-align: justify;
+}
+
+
+
+/*selector de tipo clase*/
+.tarjeta{
+    background-color: rgb(202, 224, 61);
+    border: 2px solid rgb(0, 1, 48);
+    margin: 20px;
+    padding: 20px;
+}
+
+/*.cintaOpciones{
+    color: rgb(107, 92, 0);
+}*/
+
+/*selector de tipo ID*/
+#título-hitoria{
+    color: rgb(107, 92, 0);
+}
+#subtítulo-historia{
+    color: rgb(67, 57, 0);
+}
+#título-discografía{
+    color: rgb(89, 107, 0);
+}
+#título-miembros{
+    color: rgb(107, 73, 0);
+}
+#título-favoritas{
+    color: rgb(107, 48, 0);
+}
+#título-formulario{
+    color: rgb(68, 107, 0);
+}
+#título-despedida{
+    color: rgb(9, 110, 112);
+}
+
+#imagen1{
+    border-radius: 20%;
+    width: 90%;
+}
+
+#imagen2{
+    width:90%;
+    border: 10px solid rgb(107, 48, 0);
+    margin: 10px;
+}

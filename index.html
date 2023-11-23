@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"><!--enlazar a css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@300&display=swap" rel="stylesheet">
+    <title>Morat Fan Page</title>
+</head>
+<body>
+    <main>
+
+    <div class="titulo">
+        <h1>Morat</h1><!--encabezado-->
+    </div>    
+        
+
+        <img id="imagen1" src="https://www.elcolombiano.com/binrepository/748x471/58c0/650d471/none/11101/SFRN/nuevo-disco-de-morat-si-ayer-fuera-hoy_40958289_20221028095623.png" alt="Foto de la banda colombiana Morat">
+        
+        <nav>
+            <a href="#historia">La historia de Morat</a><br>
+            <a href="#discografía">Discografía</a><br>
+            <a href="#miembros">Miembros</a><br>
+            <a href="#favoritas">Mejores canciones de Morat</a><br>
+            <a href="#formulario">Formulario</a><br>
+        </nav>
+    
+    <section class="tarjeta" id="historia"><!--sección 1-->
+        <h2 id="título-hitoria">La historia de Morat</h2>
+        <p>Los integrantes de Morat son colombianos y se conocen desde los 5 años de edad, ya que estudiaban juntos en el colegio Gimnasio La Montaña, de la ciudad de Bogotá, y algunos de ellos posteriormente en la Universidad de los Andes. 
+        <br><br>Dos de sus integrantes (Simón y Martín Vargas) son hermanos de sangre. Comenzaron tocando juntos en varias ocasiones y cuando cursaban la secundaria Juan Pablo Isaza tomó la decisión de crear una banda cuando seguían estudiando. En el año 2014, la banda realizó una sesión de grabación en Bogotá</p>
+        <h3 id="subtítulo-historia">Origen del nombre</h3>
+        <p>Los integrantes de la banda solían ir a una finca en las afueras de Bogotá llamada "La Morat", lugar donde la banda hizo sus primeros ensayos. La finca pertenecía a un familiar del ex integrante Alejandro Posada Carrasco, Antonio de Morat. Antes de adoptar el nombre Morat, eran conocidos como "Malta". Pero, tiempo después, al ir a firmar con Universal Music, una banda brasileña ya estaba registrada como Malta, así que cambiaron su nombre al actual.</p>
+    </section>
+
+    <section class="tarjeta" id="discografía"><!--sección 2-->
+        <h2 id="título-discografía">Discografía</h2>
+        <ol><!--lista ordenada-->
+            <li>Sobre el amor y sus efectos secundarios</li>
+            <li>Balas perdidas</li>
+            <li>¿A dónde vamos?</li>
+            <li>Si ayer fuera hoy</li>
+        </ol>
+    </section>
+
+    <section class="tarjeta" id="miembros">
+        <h2 id="título-miembros">Miembros</h2>
+        <ul><!--lista desordenada-->
+            <li>Juan Pablo Villamil Cortés</li>
+            <li>Juan Pablo Isaza Piñeros</li>
+            <li>Simón Vargas Morales</li>
+            <li>Martín Vargas Morales</li>
+        </ul>
+    </section>
+
+    <section class="tarjeta" id="favoritas">
+        <h2 id="título-favoritas">Mejores canciones de Morat según mi opinión</h2>
+        <ul>
+            <li><a href="https://youtu.be/ARxl6giP1yU?si=-jlM2_rVLNNsRVy-" target="_blank">Valen Más</a></li>
+            <li><a href="https://youtu.be/eUjHCSq0JXA?si=Mku0f-83czk7bV-u" target="_blank">Las Cometas Siempre Vuelan En Agosto</a></li>
+            <li><a href="https://youtu.be/30wK3Xl64JY?si=xDxx-jL3B34qTV-a" target="_blank">Debí Suponerlo</a></li>
+            <li><a href="https://youtu.be/ooCnP_s0K6s?si=QoLBGyn1WXLKT_OH" target="_blank">Mi Vida Entera</a></li>
+        </ul>
+    </section>
+
+    <section class="tarjeta" id="formulario">
+        <h2 id="título-formulario">Formulario de preferencias como fan</h2>
+        
+        <form action=""><!--formulario-->
+        <input type="text" placeholder="Escribe como quieres ser llamado"><!--input es para que el usuario agregue algo, hay de distintos tipos-->
+        <br>
+
+        <p>¿De dónde eres?</p>
+        <input type="radio" name="opciones" value="opción1"> <label for="opción1">México</label>
+        <input type="radio" name="opciones" value="opción2"> <label for="opción2">Chile</label>
+        <input type="radio" name="opciones" value="opción3"> <label for="opción3">Argentina</label>
+        <input type="radio" name="opciones" value="opción4"> <label for="opción4">Guatemala</label>
+        <br><br>
+
+        <p>¿Cuál/cuales es/son tu(s) album(es) favorito(s)?</p>
+        <input type="checkbox"> Sobre el amor y sus efectos secundarios <br>
+        <input type="checkbox"> Balas perdidas <br>
+        <input type="checkbox"> ¿A dónde vamos? <br>
+        <input type="checkbox"> Si ayer fuera hoy <br><br>
+
+        <p>¿Quién es tu miembro favorito(s)?</p>
+        <input type="radio" name="opciones" value="opción1"> <label for="opción1">Villamil</label> <br>
+        <input type="radio" name="opciones" value="opción2"> <label for="opción1">Isaza</label> <br>
+        <input type="radio" name="opciones" value="opción3"> <label for="opción1">Simón</label> <br>
+        <input type="radio" name="opciones" value="opción4"> <label for="opción1">Martín</label> <br><br>
+
+        <button>Enviar</button><!--Aquí el sistema no hace nada porque le falta programación-->
+        </form>
+    </section>
+
+    <section class="tarjeta">
+        <h4 id="título-despedida">¡¡¡Escucha su música y siguelos en sus redes sociales!!!</h4>
+        <img id="imagen2" src="/morat.png" alt="Foto del último album de Morat">
+    </section>
+    </main>
+</body>
+</html>
